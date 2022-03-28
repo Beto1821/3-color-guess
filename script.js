@@ -8,7 +8,6 @@ const codigoCor = document.getElementById('rgb-color');
 const respostaRGB = document.createElement('div');
 rgbColor.appendChild(respostaRGB);
 
-
 function criaBolas() {
   for (let i = 0; i < bola.length; i += 1) {
     const r = Math.floor(Math.random() * 256);
